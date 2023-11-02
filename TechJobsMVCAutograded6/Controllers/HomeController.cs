@@ -13,7 +13,7 @@ public class HomeController : Controller
         actionChoices.Add("list", "List");
 
         ViewBag.actions = actionChoices;
-        return View();
+        return Redirect("Search");
     }
 }
 
