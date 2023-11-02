@@ -57,7 +57,6 @@ public class ListController : Controller
         }
 
 
-        
         ViewBag.jobs = jobs;
         return View(jobs);
     }
